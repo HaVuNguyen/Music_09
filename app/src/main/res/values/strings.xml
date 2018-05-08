@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">iMusic</string>
+    <string name="music_acoustic">Nhạc Acoustic</string>
+    <string name="music_korean">Nhạc Hàn Quốc</string>
+    <string name="music_us">Nhạc Âu Mỹ</string>
+    <string name="music_edm">Nhạc EDM</string>
+    <string name="music_all">All Music</string>
+    <string name="music_young">Nhạc trẻ</string>
+    <string name="tab_home">HOME</string>
 </resources>
