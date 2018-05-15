@@ -90,18 +90,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_us_music"
         />
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/color_background"
-        android:text="@string/tab_home"
-        android:textAlignment="center"
-        android:textColor="@android:color/white"
-        android:textSize="@dimen/sp_50"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        />
 </android.support.constraint.ConstraintLayout>
