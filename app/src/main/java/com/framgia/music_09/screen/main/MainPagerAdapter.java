@@ -16,13 +16,12 @@ import static com.framgia.music_09.utils.TabLayout.TAB_HOME;
 import static com.framgia.music_09.utils.TabLayout.TAB_OFFICE;
 import static com.framgia.music_09.utils.TabLayout.TAB_SEARCH;
 
-public class PagerAdapter extends FragmentPagerAdapter {
+public class MainPagerAdapter extends FragmentPagerAdapter {
     private static final int TAB_COUNT = 3;
-
     private Context mContext;
     private List<Fragment> mFragmentList;
 
-    PagerAdapter(Context context, FragmentManager fragmentManager) {
+    MainPagerAdapter(Context context, FragmentManager fragmentManager) {
         super(fragmentManager);
         mContext = context;
         mFragmentList = new ArrayList<>();

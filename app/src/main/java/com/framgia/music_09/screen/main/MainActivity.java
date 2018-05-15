@@ -25,13 +25,11 @@ public class MainActivity extends AppCompatActivity {
     private void initView() {
         ViewPager pager = findViewById(R.id.view_pager);
         TabLayout tabLayout = findViewById(R.id.tab_layout_main);
-        FragmentManager manager = getSupportFragmentManager();
-
-        PagerAdapter adapter = new PagerAdapter(this, manager);
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        MainPagerAdapter adapter = new MainPagerAdapter(this, fragmentManager);
         pager.setAdapter(adapter);
         tabLayout.setupWithViewPager(pager);
         tabLayout.setTabsFromPagerAdapter(adapter);
-
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             Objects.requireNonNull(tabLayout.getTabAt(TAB_HOME)).setIcon(R.drawable.ic_home);
             Objects.requireNonNull(tabLayout.getTabAt(TAB_OFFICE)).setIcon(R.drawable.ic_person);
