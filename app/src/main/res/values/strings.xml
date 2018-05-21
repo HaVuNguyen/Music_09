@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">iMusic</string>
     <string name="music_acoustic">Nhạc Acoustic</string>
     <string name="music_korean">Nhạc Hàn Quốc</string>
@@ -12,5 +12,4 @@
     <string name="my_music_playlist">Playlist</string>
     <string name="my_music_history">Lịch sử tải về</string>
     <string name="tab_search">Search</string>
-    <string name="home">Search</string>
 </resources>
