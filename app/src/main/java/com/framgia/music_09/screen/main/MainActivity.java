@@ -35,5 +35,6 @@ public class MainActivity extends AppCompatActivity {
             Objects.requireNonNull(tabLayout.getTabAt(TAB_OFFICE)).setIcon(R.drawable.ic_person);
             Objects.requireNonNull(tabLayout.getTabAt(TAB_SEARCH)).setIcon(R.drawable.ic_search);
         }
+
     }
 }

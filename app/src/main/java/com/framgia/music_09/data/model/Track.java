@@ -1,5 +1,7 @@
 package com.framgia.music_09.data.model;
 
+import android.graphics.Bitmap;
+
 public class Track {
     private int mId;
     private String mTitle;
@@ -42,7 +44,7 @@ public class Track {
         mUri = uri;
     }
 
-    public String getArtworkUrl() {
+    public Bitmap getArtworkUrl() {
         return mArtworkUrl;
     }
 
